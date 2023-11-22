@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-  <h1> Un titolo:  </h1>
+  <h1 class="centered"> Un titolo:  </h1>
   <Title />
   
 </template>

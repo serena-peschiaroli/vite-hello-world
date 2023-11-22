@@ -23,7 +23,7 @@ export default {
 </script>
 
 <template>
-    <div>
+    <div class="centered">
         <h2> {{ greetings }} </h2>
         <button @click="message"> cliccami! </button>
         <p v-if="mostraParagrafo"> il mio primo bottone con Vite! </p>
@@ -33,4 +33,8 @@ export default {
 </template>
 
 <style>
+.centered {
+    text-align: center;
+}
+
 </style>
