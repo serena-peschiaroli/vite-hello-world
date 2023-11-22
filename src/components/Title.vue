@@ -9,6 +9,14 @@ export default {
     methods: {
         message() {
             this.mostraParagrafo = true;
+            console.log("click!" , this.mostraParagrafo);
+            if ( this.mostraParagrafo) {
+                setTimeout(() => {
+                    this.mostraParagrafo = false
+                    console.log("unclick!", this.mostraParagrafo);
+
+                },5000);
+            }
         },
     },
 };
